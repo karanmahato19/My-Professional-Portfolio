@@ -3,7 +3,7 @@ import cplusplus from "../../public/cplusplus.png";
 import java from "../../public/java.png";
 import html5 from "../../public/html5.png";
 import css from "../../public/css.png";
-import javaScript from "../../public/javaScript.png";
+import JavaScript from "../../public/JavaScript.png";
 import tailwind from "../../public/tailwind.png";
 import sql from "../../public/sql.png";
 import mongoDB from "../../public/mongoDB.png";
@@ -35,7 +35,7 @@ function Skills() {
         },
         {
             id:15,
-            logo:javaScript,
+            logo:JavaScript,
             name:"JavaScript",
         },
         {
