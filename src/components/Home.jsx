@@ -19,9 +19,9 @@ function Home() {
         {/*Home Page Content*/}
             <div className="flex flex-col md:flex-row">
                 <div className="md:w-1/2 mt-8 md:mt-20 order-2 md:order-1 space-y-0 md:space-y-2">
-                    <span className="text-sm md:text-xl">Welcome In My Feed</span>
+                    <span className="md:text-xl">Welcome In My Feed</span>
                     <div className="space-y-3">
-                    <div className="flex space-x-0 md:text-3xl">
+                    <div className="flex space-x-0 text-xl md:text-3xl">
                         <h1 className="font-bold">Hello, I'm <span className="">Karan Mahato</span> a <ReactTyped className="text-red-700 font-bold"
                                 strings={[" Developer", " Programmer", " Coder"]}
                                 typeSpeed={50}
@@ -30,7 +30,7 @@ function Home() {
                             />
                         </h1>  
                     </div>
-                    <div className="text-sm text-justify md:text-lg space-y-2">
+                    <div className="text-justify md:text-lg space-y-2">
                         <p>With a deep interest in coding and design, 
                             I’m constantly learning and eager to take on challenging projects that 
                             allow me to grow both personally and professionally. Let's connect and build 
@@ -78,11 +78,11 @@ function Home() {
                     </div>
                 </div>
                 <div className="md:w-1/3 mt-5 ml-12 mr-12 md:ml-60 md:mt-40 order-1 md:order-2">
-                    <img src={profile2} className="rounded-full justify-center ml-4 shadow-xl mx-auto md:mx-5 mb-3 w-60 h-60 md:w-80 md:h-80 object-cover
-                    transform transition-transform hover:scale-105 duration-300"/>
-                    <div className="mt-5 ml-2 md:ml-0 md:mt-10 flex flex-col md:flex-row text-center pl-12 pr-10 space-y-3 md:space-y-0 md:space-x-5">
-                        <a href="#contact"><button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white shadow-xl rounded-full border-[2px] px-8 md:px-4 py-2 cursor-pointer hover:scale-105 duration-200">Contact Me</button></a>
-                        <a href="ResumeLink" target="_blank"><button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white shadow-xl rounded-full border-[2px] px-12 md:px-7 py-2 cursor-pointer hover:scale-105 duration-200">Resume</button></a>
+                    <div className="flex justify-center"><img src={profile2} className="rounded-full justify-center shadow-xl mx-auto md:mx-5 mb-3 w-60 h-60 md:w-80 md:h-80 object-cover
+                    transform transition-transform hover:scale-105 duration-300"/></div>
+                    <div className="mt-5 md:ml-0 md:mt-10 flex flex-col md:flex-row text-center justify-center pl-10 md:pl-14 pr-10 space-y-3 md:space-y-0 md:space-x-5">
+                        <a href="#contact"><button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white shadow-xl rounded-full border-[2px] px-10 md:px-4 py-2 cursor-pointer hover:scale-105 duration-200">Contact Me</button></a>
+                        <a href="ResumeLink" target="_blank"><button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white shadow-xl rounded-full border-[2px] px-10 md:px-4 py-2 cursor-pointer hover:scale-105 duration-200">View Resume</button></a>
                     </div>
                 </div>
             </div>

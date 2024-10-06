@@ -37,7 +37,7 @@ function Navbar() {
           <img src={profile} className="h-12 w-12 rounded-full" alt="" />
           <h1 className="">
             <span className="text-xl text-red-800">K</span>ARAN <span className="text-xl text-red-800">M</span>AHATO
-            <p className="text-xs">My Professional Portfolio</p>
+            <p className="text-xs text-gray-600">My Professional Portfolio</p>
           </h1>
         </div>
         {/*DeskTop Navigation bar*/}

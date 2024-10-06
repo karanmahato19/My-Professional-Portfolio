@@ -4,7 +4,7 @@ function About() {
   return (
     <div name="About" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-10">
         <h1 className="text-3xl font-bold mb-3">About</h1>
-        <div className="text-sm md:text-base text-justify space-y-2">
+        <div className="md:text-base text-justify space-y-2">
                     <p>I’m Karan Kumar Mahato, a passionate Web Developer currently
                         my B.Sc. in Computer Application at Marwari College Ranchi. 
                         With a strong foundation in HTML, CSS, JavaScript, and SQL, 
