@@ -1,9 +1,11 @@
 import axios from 'axios';
 import React from 'react'
+/**using useForm */
 import { useForm } from "react-hook-form"
 import { toast } from 'react-hot-toast';
 
 function Contact() {
+  /**confusing part try catch for the risky code while submiting data in the form */
     const {
         register,
         handleSubmit,
@@ -16,6 +18,7 @@ function Contact() {
             email:data.email,
             message:data.message
         };
+        /**using axios & toast libraries */
         try {
           await axios.post("https://getform.io/f/bvregyqb", userInfo);
           toast.success("Your message has been sent");

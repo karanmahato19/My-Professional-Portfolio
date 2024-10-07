@@ -15,13 +15,15 @@ import mail from "../../public/mail.png";
 function Home() {
   return (
     <>
+      {/**parent div is for the web app look */}
        <div name="Home" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 md:my-10">
         {/*Home Page Content*/}
+        {/**dividing the home page screen in 2 parts, for intro and photo */}
             <div className="flex flex-col md:flex-row">
                 <div className="md:w-1/2 mt-8 md:mt-20 order-2 md:order-1 space-y-0 md:space-y-2">
-                    <span className="md:text-xl">Welcome In My Feed</span>
+                    <span className="text-sm md:text-xl">Welcome In My Feed</span>
                     <div className="space-y-3">
-                    <div className="flex space-x-0 text-xl md:text-3xl">
+                    <div className="flex space-x-0 text-lg md:text-3xl">
                         <h1 className="font-bold">Hello, I'm <span className="">Karan Mahato</span> a <ReactTyped className="text-red-700 font-bold"
                                 strings={[" Developer", " Programmer", " Coder"]}
                                 typeSpeed={50}
@@ -30,7 +32,7 @@ function Home() {
                             />
                         </h1>  
                     </div>
-                    <div className="text-justify md:text-lg space-y-2">
+                    <div className="text-justify text-sm md:text-lg space-y-2">
                         <p>With a deep interest in coding and design, 
                             I’m constantly learning and eager to take on challenging projects that 
                             allow me to grow both personally and professionally. Let's connect and build 
@@ -81,8 +83,8 @@ function Home() {
                     <div className="flex justify-center"><img src={profile2} className="rounded-full justify-center shadow-xl mx-auto md:mx-5 mb-3 w-60 h-60 md:w-80 md:h-80 object-cover
                     transform transition-transform hover:scale-105 duration-300"/></div>
                     <div className="mt-5 md:ml-0 md:mt-10 flex flex-col md:flex-row text-center justify-center pl-10 md:pl-14 pr-10 space-y-3 md:space-y-0 md:space-x-5">
-                        <a href="#contact"><button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white shadow-xl rounded-full border-[2px] px-10 md:px-4 py-2 cursor-pointer hover:scale-105 duration-200">Contact Me</button></a>
-                        <a href="ResumeLink" target="_blank"><button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white shadow-xl rounded-full border-[2px] px-10 md:px-4 py-2 cursor-pointer hover:scale-105 duration-200">View Resume</button></a>
+                        <a href="mailto:mahatokaran0000@gmail.com"><button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white shadow-xl rounded-full border-[2px] px-10 md:px-4 py-2 cursor-pointer hover:scale-105 duration-200">Contact Me</button></a>
+                        <a href="https://drive.google.com/file/d/1hMriPiw5vcYlMxyR791r1aJUenpriWU8/view?usp=drivesdk" target="_blank"><button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white shadow-xl rounded-full border-[2px] px-10 md:px-4 py-2 cursor-pointer hover:scale-105 duration-200">View Resume</button></a>
                     </div>
                 </div>
             </div>

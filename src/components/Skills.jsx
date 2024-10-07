@@ -12,6 +12,7 @@ import nodejs from "../../public/nodejs.png";
 
 
 function Skills() {
+    {/**making array for cardItems */}
     const cardItem=[
         {
             id:11,
@@ -38,11 +39,11 @@ function Skills() {
             logo:JavaScript,
             name:"JavaScript",
         },
-        {
+        /**{
             id:16,
             logo:tailwind,
             name:"Tailwind CSS",
-        },
+        },*/
         {
             id:17,
             logo:sql,
@@ -71,7 +72,8 @@ function Skills() {
             <span className="text-lg">I have good knowledge and college experience in these following skills : </span>
             <div className="grid grid-cols-4 md:grid-cols-7 gap-6 mb-3 mt-5">
                {
-                cardItem.map(({id,logo,name,description}) =>(
+                /**calling arrray by mapping */
+                cardItem.map(({id,logo,name}) =>(
                     <div className="flex flex-col text-center justify-center shadow-black rounded-full w-[60px] text-xs md:w-[90px] md:h-[90px] p-1 crusor-pointer hover:scale-105 duration-300" key={id}>
                         <img src={logo} className="border-[2px] rounded-full" alt=""/>
                         <div>

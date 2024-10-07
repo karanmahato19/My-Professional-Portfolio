@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import profile from "../../public/profile1.jpg";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
+/**using Link */
 import { Link } from "react-scroll";
 
 

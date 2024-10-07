@@ -38,8 +38,8 @@ function Footer() {
                     </ul> 
             </div>
             <div className="text-xs md:text-sm mt-6 md:mt-6 border-t text-gray-400 pt-4 flex-col text-center">
-                <p>&copy; 2024 karanmahato19. All rights reserved.</p>
-                <p>Thanks to LearnCoding ❤️ </p>
+                <p>copyright &copy; 2024 karanmahato19 </p>
+                <p>All rights reserved</p>
             </div>
         </div>
     </div>

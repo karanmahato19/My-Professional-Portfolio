@@ -1,16 +1,17 @@
 import React from 'react'
-import bloodbank from "../../public/bloodbank.png";
+import portfolio from "../../public/portfolio.jpg";
 import bookshop from "../../public/bookshop.png";
 
 
 function Portfolio() {
+    /**making card items for shwing project */
     const cardItem=[
         {
             id:1,
-            logo:bloodbank,
-            name:"Blood Bank & Donor Management System",
-            description:"This system uses PHP, HTML, CSS, JavaScript and SQL.",
-            websiteLink:"https://www.google.com",
+            logo:portfolio,
+            name:"My Professional Portfolio",
+            description:"This system uses HTML, CSS, JavaScript and React.",
+            websiteLink:"https://karanmahato19.netlify.app/",
             sourceCodeLink:"https://www.facebook.com"
         },
         {
@@ -18,8 +19,8 @@ function Portfolio() {
             logo:bookshop,
             name:"Bookshop Management System",
             description:"Developed in C++ using File Handling.",
-            websiteLink:"https://www.instagramcom",
-            sourceCodeLink:"https://www.twitter.com"
+            websiteLink:"#AddedSoon",
+            sourceCodeLink:"#AddedSoon"
         }
     ]
   return (
@@ -29,6 +30,7 @@ function Portfolio() {
             <span className="underline text-xl font-semibold text-green-600">Featured Projects</span>
             <div className="grid md:grid-cols-2 md:flex flex-row gap-6 mb-3 mt-5">
                {
+                /**mapping array here (use learnCodeing for help) & making a box like structure*/
                 cardItem.map(({id,logo,name,description,websiteLink,sourceCodeLink}) =>(
                     <div className="md:w-[225px] md:h-[250px] border-[2px] rounded-lg shadow-lg p-1 crusor-pointer hover:scale-105 duration-300" key={id}>
                         <img src={logo} className="ml-2 mt-2 w-[60px] h-[60px] md:w-[80px] md:h-[80px] p-1 rounded-full border-[2px]" alt=""/>
