@@ -39,10 +39,10 @@ function About() {
         <div>
             <h1 className="text-green-600 underline font-semibold text-xl">Technical Skills & Expertise</h1>
             <div>
-                <span>• <span className="font-semibold text-sm md:text-base">Languages:</span> C++, Java, Python</span> <br />
-                <span>• <span className="font-semibold text-sm md:text-base">Front-End:</span> HTML, JavaScript, CSS - Tailwind CSS, Framework - React </span> <br />
-                <span>• <span className="font-semibold text-sm md:text-base">DataBase:</span> SQL, MongoDB</span> <br />
-                <span>• <span className="font-semibold text-sm md:text-base">Data Structures and Algorithems:</span> Array, string, Searching, 
+                <span className="text-sm md:text-base">• <span className="font-semibold text-sm md:text-base">Languages:</span> C++, Java, Python</span> <br />
+                <span className="text-sm md:text-base">• <span className="font-semibold text-sm md:text-base">Front-End:</span> HTML, JavaScript, CSS - Tailwind CSS, Framework - React </span> <br />
+                  <span className="text-sm md:text-base">• <span className="font-semibold text-sm md:text-base">DataBase:</span> SQL, MongoDB</span> <br />
+                 <span className="text-sm md:text-base">• <span className="font-semibold text-sm md:text-base">Data Structures and Algorithems:</span> Array, string, Searching, 
                     Sorting, Recursion</span> <br />
             </div>
             <br />
