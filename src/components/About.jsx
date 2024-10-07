@@ -52,7 +52,7 @@ function About() {
             <h1 className="text-green-600 underline font-semibold text-xl">Project</h1>
                 <div>
                     <span className="text-sm md:text-base">• <span className="font-semibold text-sm md:text-base">My Professional Portfolio</span> This system uses HTML, CSS, JavaScript, React and Node Js to observe my professional work
-                        and experience to showcase myskills in the technologies.(Link will be added soon)</span>
+                        and experience to showcase myskills in the technologies.</span>
                      <br />
                     <span className="text-sm md:text-base">• <span className="font-semibold text-sm md:text-base">BookShop Management System</span> Developed in C++ using File Handling, 
                         enables efficient management of book inventories, 

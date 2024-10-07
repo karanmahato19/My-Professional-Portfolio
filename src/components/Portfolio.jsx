@@ -12,7 +12,7 @@ function Portfolio() {
             name:"My Professional Portfolio",
             description:"This system uses HTML, CSS, JavaScript and React.",
             websiteLink:"https://karanmahato19.netlify.app/",
-            sourceCodeLink:"https://www.facebook.com"
+            sourceCodeLink:"https://github.com/karanmahato19/My-Professional-Portfolio.git"
         },
         {
             id:2,
