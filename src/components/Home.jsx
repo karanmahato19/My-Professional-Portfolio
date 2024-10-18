@@ -84,7 +84,7 @@ function Home() {
                     transform transition-transform hover:scale-105 duration-300"/></div>
                     <div className="mt-5 md:ml-0 md:mt-10 flex flex-col md:flex-row text-center justify-center pl-10 md:pl-14 pr-10 space-y-3 md:space-y-0 md:space-x-5">
                         <a href="mailto:mahatokaran0000@gmail.com"><button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white shadow-xl rounded-full border-[2px] px-10 md:px-4 py-2 cursor-pointer hover:scale-105 duration-200">Contact Me</button></a>
-                        <a href="https://drive.google.com/file/d/1hMriPiw5vcYlMxyR791r1aJUenpriWU8/view?usp=drivesdk" target="_blank"><button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white shadow-xl rounded-full border-[2px] px-10 md:px-4 py-2 cursor-pointer hover:scale-105 duration-200">View Resume</button></a>
+                        <a href="https://drive.google.com/file/d/1nHa2ZiJTfTo2Ga32V0dDPSbwUS8ZURcC/view?usp=drivesdk" target="_blank"><button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white shadow-xl rounded-full border-[2px] px-10 md:px-4 py-2 cursor-pointer hover:scale-105 duration-200">View Resume</button></a>
                     </div>
                 </div>
             </div>
