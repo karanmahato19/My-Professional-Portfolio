@@ -49,21 +49,21 @@ function Skills() {
             logo:sql,
             name:"SQL",
         },
-        {
+        /**{
             id:18,
             logo:mongoDB,
             name:"MongoDB",
-        },
+        },*/
         {
             id:19,
             logo:reactjs,
             name:"ReactJs",
         },
-        {
+        /**{
             id:20,
             logo:nodejs,
             name:"NodeJs",
-        }
+        }*/
     ]
   return (
     <div name="Skills" className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-16 mb-10">
