@@ -48,7 +48,7 @@ function About() {
             <br />
         </div>
         {/**Project Section */}
-        <div>
+        {/**<div>
             <h1 className="text-green-600 underline font-semibold text-xl">Project</h1>
                 <div>
                     <span className="text-sm md:text-base">• <span className="font-semibold text-sm md:text-base">My Professional Portfolio</span> This system uses HTML, CSS, JavaScript, React and Node Js to observe my professional work
@@ -56,10 +56,10 @@ function About() {
                      <br />
                     <span className="text-sm md:text-base">• <span className="font-semibold text-sm md:text-base">BookShop Management System</span> Developed in C++ using File Handling, 
                         enables efficient management of book inventories, 
-                        customer transactions, and sales records.(Link will be added soon)
+                        customer transactions, and sales records.
                     </span> <br />
                 </div> <br /> 
-        </div>
+  </div>*/}
         {/**My Statement */}
         <div>
             <h1 className="text-green-600 underline font-semibold text-xl">Mission Statement</h1>
@@ -67,8 +67,7 @@ function About() {
                 <p>
                     "My mission is to showcase my passion for technology and design through innovative, 
                     user-centric solutions. By combining my expertise in programming languages, 
-                    web development, and data management, I strive to create intuitive applications 
-                    that solve real-world problems, enhance user experiences, and foster engagement. 
+                    web development, and data management, 
                     My portfolio reflects my commitment to continuous learning and my dedication to delivering 
                     high-quality work that resonates with users and clients alike."
                 </p>
