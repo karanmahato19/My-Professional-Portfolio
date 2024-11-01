@@ -1,6 +1,7 @@
 import React from 'react'
 import portfolio from "../../public/portfolio.jpg";
 import bookshop from "../../public/bookshop.png";
+import studysync from "../../public/studysync.png";
 
 
 function Portfolio() {
@@ -19,9 +20,18 @@ function Portfolio() {
             logo:bookshop,
             name:"Bookshop Management System",
             description:"Developed in C++ using File Handling.",
-            websiteLink:"#AddedSoon",
-            sourceCodeLink:"#AddedSoon"
+            websiteLink:"#LinkAddedSoon",
+            sourceCodeLink:"https://github.com/karanmahato19/Bookshop-Management-System.git"
+        },
+        {
+            id:3,
+            logo:studysync,
+            name:"StudySync Education Website",
+            description:"Basic level frontend project using HTML and CSS.",
+            websiteLink:"https://karanmahato19.github.io/StudySync-Website/",
+            sourceCodeLink:"https://github.com/karanmahato19/StudySync-Website.git"
         }
+        
     ]
   return (
     <div name="Portfolio" className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-5">
@@ -32,13 +42,13 @@ function Portfolio() {
                {
                 /**mapping array here (use learnCodeing for help) & making a box like structure*/
                 cardItem.map(({id,logo,name,description,websiteLink,sourceCodeLink}) =>(
-                    <div className="md:w-[225px] md:h-[250px] border-[2px] rounded-lg shadow-lg p-1 crusor-pointer hover:scale-105 duration-300" key={id}>
+                    <div className="md:w-[225px] md:h-[250px] border-[1px] rounded-lg shadow-lg p-1 crusor-pointer hover:scale-105 hover:border-blue-600 duration-300" key={id}>
                         <img src={logo} className="ml-2 mt-2 w-[60px] h-[60px] md:w-[80px] md:h-[80px] p-1 rounded-full border-[2px]" alt=""/>
                         <div>
                             <div className="text-sm pr-2 pl-2 mt-2">{name}</div>
                             <p className="pl-2 pr-2 text-gray-500 text-xs">{description}</p>
                             <div className="text-xs space-x-2 ml-2 mt-3 flex align-bottom">
-                                <a href={websiteLink} target="_blank"><button className="bg-gradient-to-r from-red-400 to-blue-800 text-white p-2 rounded-lg hover:scale-105 duration-300">Website</button></a>
+                                <a href={websiteLink} target="_blank"><button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white p-2 pl-5 pr-5 rounded-lg hover:scale-105 duration-300">View</button></a>
                                 <a href={sourceCodeLink} target="_blank"><button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white p-2 rounded-lg hover:scale-105 duration-300">Source Code</button></a>
                             </div>
                         </div>
