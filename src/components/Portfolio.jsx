@@ -2,6 +2,7 @@ import React from 'react'
 import portfolio from "../../public/portfolio.jpg";
 import bookshop from "../../public/bookshop.png";
 import studysync from "../../public/studysync.png";
+import leetcode from "../../public/leetcode.png";
 
 
 function Portfolio() {
@@ -25,6 +26,14 @@ function Portfolio() {
         },
         {
             id:3,
+            logo:leetcode,
+            name:"LeetCode Matric Web Application",
+            description:"Shows stats of a LeetCode user. HTML, CSS, JavaScript.",
+            websiteLink:"https://karanmahato19.github.io/LeetCode-Matric/",
+            sourceCodeLink:"https://github.com/karanmahato19/LeetCode-Matric.git"
+        },
+        {
+            id:4,
             logo:studysync,
             name:"StudySync Education Website",
             description:"Basic level frontend project using HTML and CSS.",
