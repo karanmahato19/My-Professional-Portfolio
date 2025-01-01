@@ -10,10 +10,10 @@ function About() {
                         With a strong foundation in HTML, CSS, JavaScript, and SQL, 
                         I specialize in creating efficient, user-friendly web applications.
                     </p>
-                    <p>I have developed system like a Bookshop Management Syatem, My Professional Portfolio
+                    {/* <p>I have developed system like a Bookshop Management Syatem, My Professional Portfolio
                         which showcase my problem-solving abilities and my love for clean, 
                         functional code. I’m also familiar with C++, Java, and various web development frameworks.
-                    </p>
+                    </p> */}
         </div>
         <br />
         {/*Education Section*/}
@@ -39,9 +39,9 @@ function About() {
         <div>
             <h1 className="text-green-600 underline font-semibold text-xl">Technical Skills & Expertise</h1>
             <div>
-                <span className="text-sm md:text-base">• <span className="font-semibold text-sm md:text-base">Languages:</span> C++, Java, Python</span> <br />
-                <span className="text-sm md:text-base">• <span className="font-semibold text-sm md:text-base">Front-End:</span> HTML, JavaScript, CSS - Tailwind CSS, Framework - React </span> <br />
-                  <span className="text-sm md:text-base">• <span className="font-semibold text-sm md:text-base">DataBase:</span> SQL, MongoDB</span> <br />
+                <span className="text-sm md:text-base">• <span className="font-semibold text-sm md:text-base">Languages:</span> C++, Java</span> <br />
+                <span className="text-sm md:text-base">• <span className="font-semibold text-sm md:text-base">Front-End:</span> HTML, JavaScript, CSS - Tailwind CSS, Library - React </span> <br />
+                  <span className="text-sm md:text-base">• <span className="font-semibold text-sm md:text-base">DataBase:</span> SQL</span> <br />
                  <span className="text-sm md:text-base">• <span className="font-semibold text-sm md:text-base">Data Structures and Algorithems:</span> Array, string, Searching, 
                     Sorting, Recursion</span> <br />
             </div>
