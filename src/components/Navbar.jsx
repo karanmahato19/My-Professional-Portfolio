@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import profile from "../../public/profile1.jpg";
+import profile from "../../public/Profile3.png"
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 /**using Link */

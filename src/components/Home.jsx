@@ -5,7 +5,7 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
-import profile2 from "../../public/profile2.jpg";
+import profile2 from "../../public/Profile3.png";
 import linkedin from "../../public/linkedin.png";
 import gfg from "../../public/gfg.png";
 import leetcode from "../../public/leetcode.png";
